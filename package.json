@@ -1,0 +1,14 @@
+{
+  "name": "ngo-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd ngo && npm run dev",
+    "build": "cd ngo && npm run build",
+    "preview": "cd ngo && npm run preview",
+    "test": "cd ngo && npm run test:unit",
+    "install": "cd ngo && npm ci"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
